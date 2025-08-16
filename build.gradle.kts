@@ -12,6 +12,9 @@ plugins {
     alias(libs.plugins.android.test) apply false
     alias(libs.plugins.baselineprofile) apply false
     alias(libs.plugins.spotless) apply false
+    id("io.github.cdsap.kotlinprocess") version "0.2.0"
+    id("io.github.cdsap.gradleprocess") version "0.2.0"
+   
 }
 buildscript {
     repositories {
